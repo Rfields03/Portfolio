@@ -1,16 +1,16 @@
 :root {
-    --accent: #55d6c2;
-    --header-bg: rgba(12, 27, 54, 0.96);
-    --dark: #10213f;
-    --text: #172b4d;
-    --muted: #52627a;
+    --accent: #14b8a6;
+    --header-bg: rgba(15, 23, 42, 0.96);
+    --dark: #0f172a;
+    --text: #0f172a;
+    --muted: #64748b;
     --light: #f8fafc;
     --card: #fff;
-    --border: #e5eaf1;
-    --bg: #f4f7fb;
-    --button: #126b78;
-    --button-hover: #0e5360;
-    --focus: #f4a261;
+    --border: #e2e8f0;
+    --bg: #f8fafc;
+    --button: #0d9488;
+    --button-hover: #0f766e;
+    --focus: #f59e0b;
 }
 
 *,
@@ -50,7 +50,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: var(--header-bg);
-    box-shadow: 0 4px 18px rgba(12, 27, 54, 0.16);
+    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.16);
     backdrop-filter: blur(12px);
 }
 
@@ -118,13 +118,13 @@ body {
     padding: clamp(28px, 5vw, 64px);
     border: 1px solid #e2e8f0;
     border-radius: 24px;
-    background: linear-gradient(135deg, var(--dark), #1e4160);
-    box-shadow: 0 22px 55px rgba(23, 43, 77, 0.14);
+    background: linear-gradient(135deg, var(--dark), #1e293b);
+    box-shadow: 0 22px 55px rgba(15, 23, 42, 0.14);
     transition: box-shadow 0.5s;
 }
 
 .about-wrapper:hover {
-    box-shadow: 0 26px 62px rgba(23, 43, 77, 0.2);
+    box-shadow: 0 26px 62px rgba(15, 23, 42, 0.2);
 }
 
 .about-wrapper img {
@@ -132,7 +132,7 @@ body {
     height: auto;
     aspect-ratio: 1;
     justify-self: center;
-    border: 6px solid rgba(85, 214, 194, 0.3);
+    border: 6px solid rgba(20, 184, 166, 0.3);
     border-radius: 50%;
     object-fit: cover;
 }
@@ -185,13 +185,13 @@ body {
     border: 1px solid var(--border);
     border-radius: 18px;
     background: var(--card);
-    box-shadow: 0 8px 24px rgba(23, 43, 77, 0.07);
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.07);
     transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
 .proj-row-items:hover {
     transform: translateY(-5px);
-    box-shadow: 0 18px 34px rgba(23, 43, 77, 0.14);
+    box-shadow: 0 18px 34px rgba(15, 23, 42, 0.14);
 }
 
 .details {
@@ -241,7 +241,7 @@ body {
     border: none;
     border-radius: 8px;
     background: var(--button);
-    color: aliceblue;
+    color: #f8fafc;
     font: inherit;
     font-size: 0.85rem;
     font-weight: 600;
@@ -282,13 +282,13 @@ body {
     border: 1px solid var(--border);
     border-radius: 16px;
     background: var(--card);
-    box-shadow: 0 6px 20px rgba(23, 43, 77, 0.05);
+    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
     transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
 .repository-grid li:hover {
     transform: translateY(-3px);
-    box-shadow: 0 14px 28px rgba(23, 43, 77, 0.1);
+    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.1);
 }
 
 .repository-grid h3 {
@@ -309,7 +309,7 @@ body {
     padding: 8px 12px;
     border-radius: 8px;
     background: var(--button);
-    color: aliceblue;
+    color: #f8fafc;
     font-size: 0.85rem;
     font-weight: 600;
     text-decoration: none;
@@ -367,7 +367,7 @@ body {
 .contact-page a:hover,
 .contact-page a:focus-visible {
     border-color: var(--accent);
-    background: rgba(85, 214, 194, 0.1);
+    background: rgba(20, 184, 166, 0.1);
     color: var(--accent);
 }
 
