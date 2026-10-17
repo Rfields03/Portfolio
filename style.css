@@ -1,7 +1,10 @@
 :root {
     --accent: #14b8a6;
+    --accent-rgb: 20, 184, 166;
     --header-bg: rgba(15, 23, 42, 0.96);
     --dark: #0f172a;
+    --dark-alt: #1e293b;
+    --shadow-rgb: 15, 23, 42;
     --text: #0f172a;
     --muted: #64748b;
     --light: #f8fafc;
@@ -50,7 +53,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: var(--header-bg);
-    box-shadow: 0 4px 18px rgba(15, 23, 42, 0.16);
+    box-shadow: 0 4px 18px rgba(var(--shadow-rgb), 0.16);
     backdrop-filter: blur(12px);
 }
 
@@ -116,15 +119,15 @@ body {
     max-width: 1120px;
     margin: 126px auto 84px;
     padding: clamp(28px, 5vw, 64px);
-    border: 1px solid #e2e8f0;
+    border: 1px solid var(--border);
     border-radius: 24px;
-    background: linear-gradient(135deg, var(--dark), #1e293b);
-    box-shadow: 0 22px 55px rgba(15, 23, 42, 0.14);
+    background: linear-gradient(135deg, var(--dark), var(--dark-alt));
+    box-shadow: 0 22px 55px rgba(var(--shadow-rgb), 0.14);
     transition: box-shadow 0.5s;
 }
 
 .about-wrapper:hover {
-    box-shadow: 0 26px 62px rgba(15, 23, 42, 0.2);
+    box-shadow: 0 26px 62px rgba(var(--shadow-rgb), 0.2);
 }
 
 .about-wrapper img {
@@ -132,7 +135,7 @@ body {
     height: auto;
     aspect-ratio: 1;
     justify-self: center;
-    border: 6px solid rgba(20, 184, 166, 0.3);
+    border: 6px solid rgba(var(--accent-rgb), 0.3);
     border-radius: 50%;
     object-fit: cover;
 }
@@ -185,13 +188,13 @@ body {
     border: 1px solid var(--border);
     border-radius: 18px;
     background: var(--card);
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.07);
+    box-shadow: 0 8px 24px rgba(var(--shadow-rgb), 0.07);
     transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
 .proj-row-items:hover {
     transform: translateY(-5px);
-    box-shadow: 0 18px 34px rgba(15, 23, 42, 0.14);
+    box-shadow: 0 18px 34px rgba(var(--shadow-rgb), 0.14);
 }
 
 .details {
@@ -282,13 +285,13 @@ body {
     border: 1px solid var(--border);
     border-radius: 16px;
     background: var(--card);
-    box-shadow: 0 6px 20px rgba(15, 23, 42, 0.05);
+    box-shadow: 0 6px 20px rgba(var(--shadow-rgb), 0.05);
     transition: transform 180ms ease, box-shadow 180ms ease;
 }
 
 .repository-grid li:hover {
     transform: translateY(-3px);
-    box-shadow: 0 14px 28px rgba(15, 23, 42, 0.1);
+    box-shadow: 0 14px 28px rgba(var(--shadow-rgb), 0.1);
 }
 
 .repository-grid h3 {
@@ -367,7 +370,7 @@ body {
 .contact-page a:hover,
 .contact-page a:focus-visible {
     border-color: var(--accent);
-    background: rgba(20, 184, 166, 0.1);
+    background: rgba(var(--accent-rgb), 0.1);
     color: var(--accent);
 }
 
