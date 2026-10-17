@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-       <title>Rfields03 Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explore Robert Field's web development projects and portfolio.">
+    <title>Robert Field | Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 
     <!----- header ----->
-    <header class = "header" role="presentation">
-        <h2 class = "name-logo" ><a href = "#index.html"><span>Robert S Field</span></a></h2>
-        <nav class = "navbar" role="navigation">
+    <header class="header" id="top">
+        <h2 class="name-logo"><a href="#top"><span>Robert S Field</span></a></h2>
+        <nav class="navbar" aria-label="Main navigation">
             <ul role="presentation"> 
                 <li><a href = "#about"> About </a></li>
                 <li><a href = "#project"> Projects </a></li>
@@ -23,7 +25,7 @@
     <!---- About Me section -->
     <div id="about"></div>
     <div class="about-wrapper" role ="presentation">
-                <img src="rsf.jpg" id ="image">
+                <img src="rsf.jpg" id="image" alt="Robert Field">
             
             <div class="about-info">
                 <h2>ABOUT ME</h2>
@@ -41,7 +43,7 @@
                         <h3> HTML, CSS and Git</h3>
                         <p>An introduction to basic website structure and design.</p>
                         <div class = "design-img">
-                            <img src = "assets/Horiseon.jpg" alt = "">
+                            <img src="assets/Horiseon.jpg" alt="Horiseon website preview">
                         </div>
                         <div class = "prj-link">
                             <a href = "https://rfields03.github.io/Horiseon/" target="_blank" rel="noopener noreferrer"><button type="button">Website</button></a>
@@ -55,7 +57,7 @@
                         <h3> JavaScript</h3>
                         <p>Introduction to the use of JavaScript.</p>
                         <div class = "csheet-img">
-                            <img src = "assets/PWG.jpg" alt = "">
+                            <img src="assets/PWG.jpg" alt="Password generator website preview">
                         </div>
                         <div class = "prj-link">
                             <a href = "https://rfields03.github.io/WFH-PG/" target="_blank" rel="noopener noreferrer"><button type="button">Website</button></a>
@@ -69,7 +71,7 @@
                         <h3> Web API </h3>
                         <p> A website built with HTML and CSS powered by JavaScript.</p>
                         <div class = "club-img">
-                            <img src = "assets/API.jpg" alt = "">
+                            <img src="assets/API.jpg" alt="JavaScript web API project preview">
                         </div>
                         <div class = "prj-link">
                             <a href = "https://rfields03.github.io/JSFQ/" target="_blank" rel="noopener noreferrer"><button type="button">Website</button></a>
@@ -84,7 +86,7 @@
                         <h3> Third Party APIs </h3>
                         <p> Website utilizing the use of Moment.js, jQuery and Bootstrap </p>
                         <div class = "coy-hpage-img">
-                            <img src = "assets/WDS.jpg" alt = "">
+                            <img src="assets/WDS.jpg" alt="Daily work planner website preview">
                         </div>
                         <div class = "prj-link">
                             <a href = "https://rfields03.github.io/Daily-Work-Planner/" target="_blank" rel="noopener noreferrer"><button type="button">Website</button></a>
@@ -98,7 +100,7 @@
                         <h3> Server Side API </h3>
                         <p> Website utilizing the use of a third party API, Bootstrap, HTML and JavaScript</p>
                         <div class = "coy-hpage-img">
-                            <img src = "assets/WD.jpg" alt = "">
+                            <img src="assets/WD.jpg" alt="Weather dashboard website preview">
                         </div>
                         <div class = "prj-link">
                             <a href = "https://rfields03.github.io/Weather-Dashboard/" target="_blank" rel="noopener noreferrer"><button type="button">Website</button></a>
@@ -112,7 +114,7 @@
                         <h3> Full Stack Group Project </h3>
                         <p> Website utilizing Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM and Heroku</p>
                         <div class = "coy-hpage-img">
-                            <img src = "assets/Homepage.jpg" alt = "">
+                            <img src="assets/Homepage.jpg" alt="Full stack group project preview">
                         </div>
                         <div class = "prj-link">
                             <a href = "https://afternoon-reef-79835.herokuapp.com/" target="_blank"><button type="button">Website</button></a>
@@ -144,14 +146,15 @@
 
         <!----- contact section ----->
 
-    <section class = "contact" id = "contact">
-        <h2> Contact:</h2>
-        <a href="mailto:Rfields03@gmail.com">E-mail Me</a>
-        <a href="tel:9193487616">919-348-7616</a>
-        <div class = "contact-page">  
-            <a href="https://www.linkedin.com/in/robertsfield?trk=profile-badge">LinkedIn</a></div>
-            <a href="https://github.com/Rfields03">GitHUB</a></div>
-            <a href="https://www.instagram.com/rfields03/">Instagram</a></div>
+    <section class="contact" id="contact">
+        <h2>Let's connect</h2>
+        <p>Have a project or opportunity in mind? Get in touch.</p>
+        <div class="contact-page">
+            <a href="mailto:Rfields03@gmail.com">Email</a>
+            <a href="tel:9193487616">919-348-7616</a>
+            <a href="https://www.linkedin.com/in/robertsfield?trk=profile-badge" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/Rfields03" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.instagram.com/rfields03/" target="_blank" rel="noopener noreferrer">Instagram</a>
         </div>
     </section>
 </body>
