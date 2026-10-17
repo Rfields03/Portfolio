@@ -877,6 +877,17 @@ button:focus-visible {
     outline-offset: 3px;
 }
 
+.site-footer {
+    padding: 20px 24px;
+    color: #52627a;
+    text-align: center;
+}
+
+.site-footer p {
+    margin: 0 auto;
+    font-size: 0.85rem;
+}
+
 @media (max-width: 700px) {
     .header {
         height: auto;
