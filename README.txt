@@ -23,8 +23,8 @@ Repository access:
  - Changing repository visibility or branch protection requires an authorized GitHub administrator and is not configured by this repository's files.
 
 Copyright:
- - Original portfolio content is copyright © 2026 Robert S Field. All rights reserved.
- - This notice does not prevent copying of content delivered by the public website. Third-party materials remain the property of their respective owners.
+ - © Robert S Field. All rights reserved for original portfolio content. Third-party materials remain the property of their respective owners.
+ - A copyright notice does not prevent copying of content delivered by the public website.
 
  Site Image:
  ![](https://github.com/Rfields03/Portfolio/blob/Main/Website%20Screenshot.JPG)
